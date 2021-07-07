@@ -17,7 +17,7 @@ namespace Vidly.Controllers
                 Nome = "Shrek"
             };
 
-            return View();
+            return View(filme);
         }
     }
 }
