@@ -47,7 +47,8 @@ namespace Vidly.Controllers
                 pagina = 1;
             }
 
-            if (String.IsNullOrWhiteSpace(filtro)) {
+            if (String.IsNullOrWhiteSpace(filtro)) 
+            {
                 filtro = "Nome";
             }
 
